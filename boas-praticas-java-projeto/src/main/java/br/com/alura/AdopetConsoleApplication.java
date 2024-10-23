@@ -108,6 +108,7 @@ public class AdopetConsoleApplication {
         if (statusCode == 404 || statusCode == 500) {
             System.out.println("ID ou nome não cadastrado!");
         }
+        
         String responseBody = response.body();
         JsonArray jsonArray = JsonParser.parseString(responseBody).getAsJsonArray();
         System.out.println("Pets cadastrados:");
