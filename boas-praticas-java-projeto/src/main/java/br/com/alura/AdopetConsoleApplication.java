@@ -30,7 +30,7 @@ public class AdopetConsoleApplication {
                 if (opcaoEscolhida == 1) {
                 	abrigoService.listarAbrigo();
                 } else if (opcaoEscolhida == 2) {
-                	abrigoService.cadastraAbrigo();
+                	abrigoService.cadastrarAbrigo();
                 } else if (opcaoEscolhida == 3) {
                 	petService.listarPetsDoAbrigo();
                 } else if (opcaoEscolhida == 4) {
